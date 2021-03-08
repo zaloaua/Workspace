@@ -33,7 +33,7 @@ export const Navbar = () => {
 	  
         <button
         id='headcomp'
-          className=' inline-flex p-4 hover:bg-yellow-600 rounded lg:hidden text-black ml-auto hover:text-black outline-none'
+          className='lg:inline-flex p-4 hover:bg-yellow-600 rounded lg:hidden text-black ml-auto hover:text-black outline-none'
           onClick={handleClick}
         >
           <svg
@@ -57,7 +57,7 @@ export const Navbar = () => {
             active ? '' : 'hidden'
           }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}
         >
-          <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
+          <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto'>
             <Link href='/'>
               <a id='headcomp' className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:bg-yellow-600 hover:text-black '>
                 Home
@@ -78,6 +78,7 @@ export const Navbar = () => {
                 Contact us
               </a>
             </Link>
+            <input class="focus:ring-2 focus:ring-blue-600 ..."></input>
           </div>
         </div>
       </nav>
