@@ -78,7 +78,7 @@ export const Navbar = () => {
                 Contact us
               </a>
             </Link>
-            <input class="focus:ring-2 focus:ring-blue-600 ..."></input>
+            <input className="focus:ring-2 focus:ring-blue-600 ..."></input>
           </div>
         </div>
       </nav>

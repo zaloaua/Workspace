@@ -1,4 +1,4 @@
-/* ./pages/index.js               */
+
 import Head from 'next/head';
 import {Navbar} from '../components/NavigationBar';
 import {Workspace} from '../components/Workspace';
@@ -19,7 +19,7 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Navbar/>
-      <Workspace/>
+     <Workspace/>
       <Map location={location} zoomLevel={17} /> {/* include it here */}
     <FooterPage/>
     </div>
